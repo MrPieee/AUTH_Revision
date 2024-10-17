@@ -55,7 +55,7 @@ app.get('/user/:id',async(req,res)=>{
 // Server another routes
 app.use('/api/normalAuth',normalAuth);
 app.use('/api/hashAuth',hashAuth);
-app.use('/api/normalAuth',bcryptAuth);
+app.use('/api/bcryptAuth',bcryptAuth);
 
 
 // Server route not found
